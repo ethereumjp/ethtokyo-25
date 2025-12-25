@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   // output: "export",
   // i18n: { locales: ["en", "ja"], defaultLocale: "en", localeDetection: false },
+  basePath: "/ethtokyo-25",
   images: {
     remotePatterns: [new URL("https://picsum.dev/**")],
   },
