@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   // output: "export",
   // i18n: { locales: ["en", "ja"], defaultLocale: "en", localeDetection: false },
   basePath: "/ethtokyo-25",
-  assetPrefix: "/ethtokyo-25/",
+  assetPrefix: "https://ethereumjp.github.io/ethtokyo-25/",
   images: {
     remotePatterns: [new URL("https://picsum.dev/**")],
   },
