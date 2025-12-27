@@ -103,7 +103,7 @@ const TracksSection: FC = () => {
           <div css={imageCardStyle}>
             <div css={imageWrapperStyle}>
               <OptimizedImage
-                src="/2025/images/gallery/hackathon-1.jpg"
+                src="/ethtokyo-25/2025/images/gallery/hackathon-1.jpg"
                 alt="ETHTokyo Hackathon Participants"
                 css={imageStyle}
                 width={100}
@@ -115,7 +115,7 @@ const TracksSection: FC = () => {
           <div css={imageCardStyle}>
             <div css={imageWrapperStyle}>
               <OptimizedImage
-                src="/2025/images/gallery/hackathon-2.jpg"
+                src="/ethtokyo-25/2025/images/gallery/hackathon-2.jpg"
                 alt="ETHTokyo Hackathon Mentoring"
                 css={imageStyle}
                 width={100}
@@ -127,7 +127,7 @@ const TracksSection: FC = () => {
           <div css={imageCardStyle}>
             <div css={imageWrapperStyle}>
               <OptimizedImage
-                src="/2025/images/gallery/hackathon-3.jpg"
+                src="/ethtokyo-25/2025/images/gallery/hackathon-3.jpg"
                 alt="ETHTokyo Hackathon Presentations"
                 css={imageStyle}
                 width={100}
@@ -222,7 +222,7 @@ const trackTitleStyle = css`
   font-size: 1.75rem;
   gap: 0.5rem;
   margin: 0;
-  
+
   ${mq.mobileSmall} {
     align-items: flex-start;
     flex-direction: column;
@@ -264,7 +264,7 @@ const trackDescriptionStyle = css`
 
 const expandedContentStyle = css`
   animation: fadeIn 0.5s ease;
-  
+
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -313,11 +313,11 @@ const requirementItemStyle = css`
   margin-bottom: 1rem;
   padding-left: 1.5rem;
   position: relative;
-  
+
   &:last-child {
     margin-bottom: 0;
   }
-  
+
   &::before {
     color: ${brand.Primary};
     content: "•";
@@ -339,7 +339,7 @@ const readMoreButtonStyle = css`
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: color 0.2s ease;
-  
+
   &:hover {
     color: ${brand.Secondary};
   }
@@ -354,7 +354,7 @@ const imageGalleryStyle = css`
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
-  
+
   ${mq.mobileSmall} {
     gap: 1.5rem;
   }
@@ -369,12 +369,12 @@ const imageCardStyle = css`
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   width: 42vw;
   max-width: 360px;
-  
+
   &:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
   }
-  
+
   &::after {
     background: linear-gradient(
       135deg,
@@ -386,7 +386,7 @@ const imageCardStyle = css`
     transition: opacity 0.3s ease;
     pointer-events: none;
   }
-  
+
   &:hover::after {
     opacity: 1;
   }
@@ -403,7 +403,7 @@ const imageStyle = css`
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
-  
+
   ${imageCardStyle}:hover & {
     transform: scale(1.1);
   }
@@ -419,7 +419,7 @@ const imageOverlayStyle = css`
   );
   transform: translateY(100%);
   transition: transform 0.3s ease;
-  
+
   ${imageCardStyle}:hover & {
     transform: translateY(0);
   }
@@ -460,7 +460,7 @@ const finalistsGridStyle = css`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.25rem;
-  
+
   ${mq.mobileSmall} {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -482,7 +482,7 @@ const sponsorTracksTitleStyle = css`
   font-weight: 700;
   text-align: center;
   margin: 0 0 2rem;
-  
+
   ${mq.mobileSmall} {
     font-size: 1.5rem;
   }

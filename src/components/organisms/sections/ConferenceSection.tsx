@@ -46,7 +46,7 @@ const ConferenceSection: FC = () => {
 
         <div css={galleryContainerStyle}>
           <FeatureCard
-            imageSrc="/2025/images/gallery/event-image-20.jpg"
+            imageSrc="/ethtokyo-25/2025/images/gallery/event-image-20.jpg"
             imageAlt="ETHTokyo Conference Audience"
             title="Panel Discussions showcase"
             description="Featuring keynote speeches, panel discussions, workshops, and diverse sessions for all experience levels."
@@ -56,7 +56,7 @@ const ConferenceSection: FC = () => {
           />
 
           <FeatureCard
-            imageSrc="/2025/images/gallery/event-image-1.jpg"
+            imageSrc="/ethtokyo-25/2025/images/gallery/event-image-1.jpg"
             imageAlt="ETHTokyo Conference Speaker"
             title="Audrey Tang at ETHTokyo'24"
             description="Hear from top experts and builders in the Ethereum Community, major projects, and research institutions."

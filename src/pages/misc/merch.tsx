@@ -15,7 +15,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           Official Merch (Crypto only)
         </h1>
         <Image
-          src="/2025/images/payto-safe-qr.png"
+          src="/ethtokyo-25/2025/images/payto-safe-qr.png"
           alt="Payto Safe QR"
           width={480}
           height={480}

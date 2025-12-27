@@ -77,7 +77,7 @@ const PartnersSection: FC = () => {
     return (
       <a href={props.website} target="_blank" rel="noopener noreferrer">
         <Image
-          src={`/2025/images/orglogos/${props.partnerType}Partners/${props.logoFile}`}
+          src={`/ethtokyo-25/2025/images/orglogos/${props.partnerType}Partners/${props.logoFile}`}
           alt={`${props.partnerName} logo`}
           css={logoStyle}
           width={180}

@@ -6,8 +6,8 @@ import { css } from "@emotion/react";
 import Image from "next/image";
 import type { FC } from "react";
 import { BiIdCard } from "react-icons/bi";
-const ThemeImage = "/2025/images/keyvisual.png";
-const ETHTokyoLogo = "/assets/ETHTokyoLogo.png";
+const ThemeImage = "/ethtokyo-25/2025/images/keyvisual.png";
+const ETHTokyoLogo = "/ethtokyo-25/assets/ETHTokyoLogo.png";
 
 const HeroSection: FC = () => {
   const sectionStyle = css`
@@ -62,19 +62,19 @@ const HeroSection: FC = () => {
     position: relative;
     text-align: center;
     z-index: 2;
-    
+
     ${mq.mobile} {
       padding: 0 1.5rem;
       padding-top: 5rem;
       padding-bottom: 2.5rem;
     }
-    
+
     ${mq.tablet} {
       padding: 0 2rem;
       padding-top: 6rem;
       padding-bottom: 3rem;
     }
-    
+
     ${mq.laptop} {
       padding-top: 7rem;
       padding-bottom: 4rem;
@@ -88,19 +88,19 @@ const HeroSection: FC = () => {
     margin: 0 auto 1.5rem;
     max-width: 200px;
     position: relative;
-    
+
     ${mq.mobile} {
       height: 130px;
       margin: 0 auto 1.75rem;
       max-width: 220px;
     }
-    
+
     ${mq.tablet} {
       height: 150px;
       margin: 0 auto 2rem;
       max-width: 250px;
     }
-    
+
     ${mq.laptop} {
       max-width: 300px;
     }
@@ -116,17 +116,17 @@ const HeroSection: FC = () => {
     color: ${neutral.White};
     margin-bottom: 1rem;
     ${textShadowStyle}
-    
+
     ${mq.mobile} {
       font-size: 3rem;
       margin-bottom: 1.25rem;
     }
-    
+
     ${mq.tablet} {
       font-size: 3.75rem;
       margin-bottom: 1.5rem;
     }
-    
+
     ${mq.laptop} {
       font-size: 6rem;
       margin-top: 1rem;
@@ -138,22 +138,22 @@ const HeroSection: FC = () => {
     color: ${neutral.White};
     margin-bottom: 1.5rem;
     ${textShadowStyle}
-    
+
     ${mq.mobileSmall} {
       font-size: 1rem;
       margin-bottom: 1.5rem;
     }
-    
+
     ${mq.mobile} {
       font-size: 1.125rem;
       margin-bottom: 1.75rem;
     }
-    
+
     ${mq.tablet} {
       font-size: 1.5rem;
       margin-bottom: 2rem;
     }
-    
+
     ${mq.laptop} {
       font-size: 1.875rem;
     }
@@ -164,17 +164,17 @@ const HeroSection: FC = () => {
     margin-bottom: 2rem;
     color: ${neutral.White};
     ${textShadowStyle}
-    
+
     ${mq.mobile} {
       margin-bottom: 2.5rem;
       margin-top: 2.5rem;
     }
-    
+
     ${mq.tablet} {
       margin-bottom: 3rem;
       margin-top: 3rem;
     }
-    
+
     ${mq.laptop} {
       margin-bottom: 4rem;
       margin-top: 4rem;
@@ -183,15 +183,15 @@ const HeroSection: FC = () => {
 
   const buttonContainerStyle = css`
     margin-top: 1.5rem;
-    
+
     ${mq.mobile} {
       margin-top: 2rem;
     }
-    
+
     ${mq.tablet} {
       margin-top: 0.5rem;
     }
-    
+
     ${mq.laptop} {
       margin-top: 0.5rem;
     }

@@ -33,7 +33,7 @@ const AboutSection: FC = () => {
   const aboutContentStyle = css`
     display: grid;
     gap: 2rem;
-    
+
     ${mq.tablet} {
       grid-template-columns: 1fr 1fr;
     }
@@ -76,7 +76,7 @@ const AboutSection: FC = () => {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr;
-    
+
     ${mq.tablet} {
       grid-template-columns: 1fr 1fr;
     }
@@ -231,7 +231,7 @@ const AboutSection: FC = () => {
                     variant="outline"
                     icon={
                       <img
-                        src="/2025/images/eventPartners/taikai_logomark.svg"
+                        src="/ethtokyo-25/2025/images/eventPartners/taikai_logomark.svg"
                         alt="Hacker Registration"
                         style={{ width: 16, height: 16 }}
                       />

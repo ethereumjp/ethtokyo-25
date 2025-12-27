@@ -18,101 +18,101 @@ import { useEffect, useState } from "react";
 import type { FC, ReactNode } from "react";
 import { GoInfo } from "react-icons/go";
 import { HiCalendarDays, HiOutlineMapPin } from "react-icons/hi2";
-import AbhimanyuPic from "/public/2024/images/contributors/abhimanyunag.jpg";
-import AggrePic from "/public/2024/images/contributors/aggre.jpg";
-import AllenPic from "/public/2024/images/contributors/allenjoseph.jpg";
-import AnjaliPic from "/public/2024/images/contributors/anjaliyoung.png";
-import AudreyPic from "/public/2024/images/contributors/audrey.png";
-import AyaPic from "/public/2024/images/contributors/ayamiyaguchi.png";
-import ChuazhengPic from "/public/2024/images/contributors/chuazhenglong.jpeg";
-import DangerPic from "/public/2024/images/contributors/dangerz.png";
-import DanielPic from "/public/2024/images/contributors/danielhwang.png";
-import DaodudePic from "/public/2024/images/contributors/daodude.jpg";
-import DeliPic from "/public/2024/images/contributors/deligong.png";
-import EdmundPic from "/public/2024/images/contributors/edmundedgar.jpg";
-import FrancescoPic from "/public/2024/images/contributors/francescoandreoli.jpg";
-import FriscoPic from "/public/2024/images/contributors/friscodanconia.jpeg";
-import GuruPic from "/public/2024/images/contributors/guru.jpg";
-import JamesPic from "/public/2024/images/contributors/jameshe.jpeg";
-import JehyukPic from "/public/2024/images/contributors/jehyukjang.jpg";
-import JongwonPic from "/public/2024/images/contributors/jongwonpark.jpg";
-import JosephPic from "/public/2024/images/contributors/josephschiarizzi.jpg";
-import JoshPic from "/public/2024/images/contributors/joshguha.png";
-import KolbyPic from "/public/2024/images/contributors/kolbymorozliebl.jpg";
-import LeonaPic from "/public/2024/images/contributors/leohio.jpeg";
-import LouiePic from "/public/2024/images/contributors/louieoconnor.jpg";
-import MattPic from "/public/2024/images/contributors/matthewliu.jpeg";
-import MelisaPic from "/public/2024/images/contributors/melisakurtcan.jpg";
-import MoazzamPic from "/public/2024/images/contributors/moazzamarif.png";
-import NabihaPic from "/public/2024/images/contributors/nabihasheikh.png";
-import NaimPic from "/public/2024/images/contributors/naimashhab.jpeg";
-import NikhilPic from "/public/2024/images/contributors/nikhilmahana.jpg";
-import Nilspic from "/public/2024/images/contributors/nilspihl.png";
-import OzgurPic from "/public/2024/images/contributors/ozgurarmancyigit.jpg";
-import PeterPic from "/public/2024/images/contributors/peterszilagyi.png";
-import PhilipPic from "/public/2024/images/contributors/phillippieper.jpg";
-import PiyushPic from "/public/2024/images/contributors/piyushgururani.jpeg";
-import QiangPic from "/public/2024/images/contributors/qiangju.png";
-import QiPic from "/public/2024/images/contributors/qizhou.png";
-import RenaPic from "/public/2024/images/contributors/renaobrien.png";
-import RohitPic from "/public/2024/images/contributors/rohitramesh.jpg";
-import RyoheiPic from "/public/2024/images/contributors/ryokomiyama.jpg";
-import SammiPic from "/public/2024/images/contributors/sammishu.jpg";
-import SamuelPic from "/public/2024/images/contributors/samuelchong.png";
-import ShogoPic from "/public/2024/images/contributors/shogoochiai.jpg";
-import SuhyeonPic from "/public/2024/images/contributors/suhyeonlee.png";
-import SujithPic from "/public/2024/images/contributors/sujithsomraaj.jpeg";
-import TakaPic from "/public/2024/images/contributors/takaphaver.jpg";
-import TomaszPic from "/public/2024/images/contributors/tomaszstanczak.png";
-import TomoPic from "/public/2024/images/contributors/tomosaito.jpg";
-import VarunPic from "/public/2024/images/contributors/varundoshi.jpg";
-import VitalikPic from "/public/2024/images/contributors/vitalik.jpg";
-import VladPic from "/public/2024/images/contributors/vladsvitanko.jpg";
-import YosuiPic from "/public/2024/images/contributors/yosuiharasawa.jpg";
-import YukiPic from "/public/2024/images/contributors/yukiyuminaga.jpeg";
-import YuroitakiPic from "/public/2024/images/contributors/yuroitaki.jpeg";
-import topHero from "/public/2024/images/hero_top.jpg";
-import seikaiha from "/public/2024/images/seikaiha.png";
-import API3Logo from "/public/2024/logo/API3Logo.svg";
-import AkindoLogo from "/public/2024/logo/AkindoLogo.svg";
-import AvailLogo from "/public/2024/logo/AvailLogo.svg";
-import BNBLogo from "/public/2024/logo/BNBLogo.svg";
-import BitflyerLogo from "/public/2024/logo/BitflyerLogo.svg";
-import BunzzLogo from "/public/2024/logo/BunzzLogo.svg";
-import CabinetLogo from "/public/2024/logo/CabinetLogo.png";
-import CentrumLogo from "/public/2024/logo/CentrumLogo.svg";
-import CoinpostLogo from "/public/2024/logo/CoinpostLogo.png";
-import CryptonomadsLogo from "/public/2024/logo/CryptonomadsLogo.svg";
-import CryptopolitanLogo from "/public/2024/logo/CryptopolitanLogo.svg";
-import DeFormLogo from "/public/2024/logo/DeFormLogo.png";
-import DesciJapanLogo from "/public/2024/logo/DesciJapanLogo.png";
-import DevconLogo from "/public/2024/logo/DevconLogo.svg";
-import EJLogoFace from "/public/2024/logo/EJLogoFace_dark.png";
-import ENSLogo from "/public/2024/logo/ENSLogo.svg";
-import ESPLogo from "/public/2024/logo/ESPLogo.svg";
-import ETHDiamondLogo from "/public/2024/logo/ETHDiamondLogo.png";
-import ETHRiyadhLogo from "/public/2024/logo/ETHRiyadhLogo.svg";
-import ETHTaipeiLogo from "/public/2024/logo/ETHTaipeiLogo.png";
-import FractonLogo from "/public/2024/logo/FractonLogo.png";
-import GMOLogo from "/public/2024/logo/GMOLogo.png";
-import IntmaxLogo from "/public/2024/logo/IntmaxLogo.svg";
-import LxDaoLogo from "/public/2024/logo/LxDaoLogo.png";
-import MercoinLogo from "/public/2024/logo/MercoinLogo.png";
-import MetamaskLogo from "/public/2024/logo/MetamaskLogo.svg";
-import MoongateLogo from "/public/2024/logo/MoongateLogo.svg";
-import NEOLogo from "/public/2024/logo/NEO-X.svg";
-import NeroLogo from "/public/2024/logo/NeroLogo.svg";
-import NewEconomyLogo from "/public/2024/logo/NewEconomyLogo.svg";
-import RedbullLogo from "/public/2024/logo/RedbullLogo.svg";
-import ScrollLogo from "/public/2024/logo/ScrollLogo.svg";
-import ShibuyaLogo from "/public/2024/logo/Shibuya.svg";
-import SolidityScanLogo from "/public/2024/logo/SolidityScanLogo.svg";
-import StreamEthLogo from "/public/2024/logo/StreamEthLogo.png";
-import TechfundLogo from "/public/2024/logo/TechfundLogo.png";
-import UnchainLogo from "/public/2024/logo/UnchainLogo.png";
-import ZeloLogo from "/public/2024/logo/ZeloLogo.png";
-import FiveDollarVcLogo from "/public/2024/logo/fivedollarvc.png";
-import ETHTokyoLogo from "/public/assets/ETHTokyoLogo.png";
+import AbhimanyuPic from "/ethtokyo-25/public/2024/images/contributors/abhimanyunag.jpg";
+import AggrePic from "/ethtokyo-25/public/2024/images/contributors/aggre.jpg";
+import AllenPic from "/ethtokyo-25/public/2024/images/contributors/allenjoseph.jpg";
+import AnjaliPic from "/ethtokyo-25/public/2024/images/contributors/anjaliyoung.png";
+import AudreyPic from "/ethtokyo-25/public/2024/images/contributors/audrey.png";
+import AyaPic from "/ethtokyo-25/public/2024/images/contributors/ayamiyaguchi.png";
+import ChuazhengPic from "/ethtokyo-25/public/2024/images/contributors/chuazhenglong.jpeg";
+import DangerPic from "/ethtokyo-25/public/2024/images/contributors/dangerz.png";
+import DanielPic from "/ethtokyo-25/public/2024/images/contributors/danielhwang.png";
+import DaodudePic from "/ethtokyo-25/public/2024/images/contributors/daodude.jpg";
+import DeliPic from "/ethtokyo-25/public/2024/images/contributors/deligong.png";
+import EdmundPic from "/ethtokyo-25/public/2024/images/contributors/edmundedgar.jpg";
+import FrancescoPic from "/ethtokyo-25/public/2024/images/contributors/francescoandreoli.jpg";
+import FriscoPic from "/ethtokyo-25/public/2024/images/contributors/friscodanconia.jpeg";
+import GuruPic from "/ethtokyo-25/public/2024/images/contributors/guru.jpg";
+import JamesPic from "/ethtokyo-25/public/2024/images/contributors/jameshe.jpeg";
+import JehyukPic from "/ethtokyo-25/public/2024/images/contributors/jehyukjang.jpg";
+import JongwonPic from "/ethtokyo-25/public/2024/images/contributors/jongwonpark.jpg";
+import JosephPic from "/ethtokyo-25/public/2024/images/contributors/josephschiarizzi.jpg";
+import JoshPic from "/ethtokyo-25/public/2024/images/contributors/joshguha.png";
+import KolbyPic from "/ethtokyo-25/public/2024/images/contributors/kolbymorozliebl.jpg";
+import LeonaPic from "/ethtokyo-25/public/2024/images/contributors/leohio.jpeg";
+import LouiePic from "/ethtokyo-25/public/2024/images/contributors/louieoconnor.jpg";
+import MattPic from "/ethtokyo-25/public/2024/images/contributors/matthewliu.jpeg";
+import MelisaPic from "/ethtokyo-25/public/2024/images/contributors/melisakurtcan.jpg";
+import MoazzamPic from "/ethtokyo-25/public/2024/images/contributors/moazzamarif.png";
+import NabihaPic from "/ethtokyo-25/public/2024/images/contributors/nabihasheikh.png";
+import NaimPic from "/ethtokyo-25/public/2024/images/contributors/naimashhab.jpeg";
+import NikhilPic from "/ethtokyo-25/public/2024/images/contributors/nikhilmahana.jpg";
+import Nilspic from "/ethtokyo-25/public/2024/images/contributors/nilspihl.png";
+import OzgurPic from "/ethtokyo-25/public/2024/images/contributors/ozgurarmancyigit.jpg";
+import PeterPic from "/ethtokyo-25/public/2024/images/contributors/peterszilagyi.png";
+import PhilipPic from "/ethtokyo-25/public/2024/images/contributors/phillippieper.jpg";
+import PiyushPic from "/ethtokyo-25/public/2024/images/contributors/piyushgururani.jpeg";
+import QiangPic from "/ethtokyo-25/public/2024/images/contributors/qiangju.png";
+import QiPic from "/ethtokyo-25/public/2024/images/contributors/qizhou.png";
+import RenaPic from "/ethtokyo-25/public/2024/images/contributors/renaobrien.png";
+import RohitPic from "/ethtokyo-25/public/2024/images/contributors/rohitramesh.jpg";
+import RyoheiPic from "/ethtokyo-25/public/2024/images/contributors/ryokomiyama.jpg";
+import SammiPic from "/ethtokyo-25/public/2024/images/contributors/sammishu.jpg";
+import SamuelPic from "/ethtokyo-25/public/2024/images/contributors/samuelchong.png";
+import ShogoPic from "/ethtokyo-25/public/2024/images/contributors/shogoochiai.jpg";
+import SuhyeonPic from "/ethtokyo-25/public/2024/images/contributors/suhyeonlee.png";
+import SujithPic from "/ethtokyo-25/public/2024/images/contributors/sujithsomraaj.jpeg";
+import TakaPic from "/ethtokyo-25/public/2024/images/contributors/takaphaver.jpg";
+import TomaszPic from "/ethtokyo-25/public/2024/images/contributors/tomaszstanczak.png";
+import TomoPic from "/ethtokyo-25/public/2024/images/contributors/tomosaito.jpg";
+import VarunPic from "/ethtokyo-25/public/2024/images/contributors/varundoshi.jpg";
+import VitalikPic from "/ethtokyo-25/public/2024/images/contributors/vitalik.jpg";
+import VladPic from "/ethtokyo-25/public/2024/images/contributors/vladsvitanko.jpg";
+import YosuiPic from "/ethtokyo-25/public/2024/images/contributors/yosuiharasawa.jpg";
+import YukiPic from "/ethtokyo-25/public/2024/images/contributors/yukiyuminaga.jpeg";
+import YuroitakiPic from "/ethtokyo-25/public/2024/images/contributors/yuroitaki.jpeg";
+import topHero from "/ethtokyo-25/public/2024/images/hero_top.jpg";
+import seikaiha from "/ethtokyo-25/public/2024/images/seikaiha.png";
+import API3Logo from "/ethtokyo-25/public/2024/logo/API3Logo.svg";
+import AkindoLogo from "/ethtokyo-25/public/2024/logo/AkindoLogo.svg";
+import AvailLogo from "/ethtokyo-25/public/2024/logo/AvailLogo.svg";
+import BNBLogo from "/ethtokyo-25/public/2024/logo/BNBLogo.svg";
+import BitflyerLogo from "/ethtokyo-25/public/2024/logo/BitflyerLogo.svg";
+import BunzzLogo from "/ethtokyo-25/public/2024/logo/BunzzLogo.svg";
+import CabinetLogo from "/ethtokyo-25/public/2024/logo/CabinetLogo.png";
+import CentrumLogo from "/ethtokyo-25/public/2024/logo/CentrumLogo.svg";
+import CoinpostLogo from "/ethtokyo-25/public/2024/logo/CoinpostLogo.png";
+import CryptonomadsLogo from "/ethtokyo-25/public/2024/logo/CryptonomadsLogo.svg";
+import CryptopolitanLogo from "/ethtokyo-25/public/2024/logo/CryptopolitanLogo.svg";
+import DeFormLogo from "/ethtokyo-25/public/2024/logo/DeFormLogo.png";
+import DesciJapanLogo from "/ethtokyo-25/public/2024/logo/DesciJapanLogo.png";
+import DevconLogo from "/ethtokyo-25/public/2024/logo/DevconLogo.svg";
+import EJLogoFace from "/ethtokyo-25/public/2024/logo/EJLogoFace_dark.png";
+import ENSLogo from "/ethtokyo-25/public/2024/logo/ENSLogo.svg";
+import ESPLogo from "/ethtokyo-25/public/2024/logo/ESPLogo.svg";
+import ETHDiamondLogo from "/ethtokyo-25/public/2024/logo/ETHDiamondLogo.png";
+import ETHRiyadhLogo from "/ethtokyo-25/public/2024/logo/ETHRiyadhLogo.svg";
+import ETHTaipeiLogo from "/ethtokyo-25/public/2024/logo/ETHTaipeiLogo.png";
+import FractonLogo from "/ethtokyo-25/public/2024/logo/FractonLogo.png";
+import GMOLogo from "/ethtokyo-25/public/2024/logo/GMOLogo.png";
+import IntmaxLogo from "/ethtokyo-25/public/2024/logo/IntmaxLogo.svg";
+import LxDaoLogo from "/ethtokyo-25/public/2024/logo/LxDaoLogo.png";
+import MercoinLogo from "/ethtokyo-25/public/2024/logo/MercoinLogo.png";
+import MetamaskLogo from "/ethtokyo-25/public/2024/logo/MetamaskLogo.svg";
+import MoongateLogo from "/ethtokyo-25/public/2024/logo/MoongateLogo.svg";
+import NEOLogo from "/ethtokyo-25/public/2024/logo/NEO-X.svg";
+import NeroLogo from "/ethtokyo-25/public/2024/logo/NeroLogo.svg";
+import NewEconomyLogo from "/ethtokyo-25/public/2024/logo/NewEconomyLogo.svg";
+import RedbullLogo from "/ethtokyo-25/public/2024/logo/RedbullLogo.svg";
+import ScrollLogo from "/ethtokyo-25/public/2024/logo/ScrollLogo.svg";
+import ShibuyaLogo from "/ethtokyo-25/public/2024/logo/Shibuya.svg";
+import SolidityScanLogo from "/ethtokyo-25/public/2024/logo/SolidityScanLogo.svg";
+import StreamEthLogo from "/ethtokyo-25/public/2024/logo/StreamEthLogo.png";
+import TechfundLogo from "/ethtokyo-25/public/2024/logo/TechfundLogo.png";
+import UnchainLogo from "/ethtokyo-25/public/2024/logo/UnchainLogo.png";
+import ZeloLogo from "/ethtokyo-25/public/2024/logo/ZeloLogo.png";
+import FiveDollarVcLogo from "/ethtokyo-25/public/2024/logo/fivedollarvc.png";
+import ETHTokyoLogo from "/ethtokyo-25/public/assets/ETHTokyoLogo.png";
 import judges from "./judges-2024.json";
 import mentors from "./mentors-2024.json";
 
@@ -403,7 +403,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 120px;
               }
@@ -450,7 +450,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -475,11 +475,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             justify-content: center;
             margin: 0 auto;
             max-width: 1600px;
-  
+
             ${mq.tablet} {
               gap: 2.5rem;
             }
-  
+
             ${mq.laptop} {
               gap: 3rem;
             }
@@ -534,7 +534,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 144px;
               }
@@ -578,7 +578,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -603,11 +603,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             justify-items: center;
             margin: 0 auto;
             max-width: 1200px;
-  
+
             ${mq.tablet} {
               grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             }
-  
+
             ${mq.laptop} {
               gap: 4rem;
             }
@@ -682,16 +682,16 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             align-items: center;
             display: flex;
             justify-content: center;
-  
-  
+
+
             max-width: ${sizes.mobile[tier]}%;
             padding: ${padding.mobile[tier]};
-  
+
             ${mq.tablet} {
               max-width: ${sizes.tablet[tier]}%;
               padding: ${padding.tablet[tier]};
             }
-  
+
             ${mq.laptop} {
               max-width: ${sizes.laptop[tier]}%;
               padding: ${padding.laptop[tier]};
@@ -717,7 +717,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
         <div
           css={css`
             padding: 1rem 0.5rem;
-  
+
             ${mq.laptop}{
               margin: 0 auto;
               padding: 2rem 1rem;
@@ -747,7 +747,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
         <div
           css={css`
             padding: 1rem 0.5rem;
-  
+
             ${mq.laptop}{
               margin: 0 auto;
               padding: 2rem 1rem;
@@ -786,7 +786,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-weight: 500;
               margin: 0;
               padding: 4rem 0 0;
-  
+
               ${mq.laptop} {
                 font-size: 3rem;
               }
@@ -828,7 +828,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 3rem;
               }
@@ -886,7 +886,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 2.5rem;
               }
@@ -920,7 +920,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 2.5rem;
               }
@@ -1095,7 +1095,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               css={css`
                 height: auto;
                 max-width: 128px;
-  
+
                 ${mq.laptop} {
                   max-width: 160px;
                 }
@@ -1146,7 +1146,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 120px;
               }
@@ -1193,7 +1193,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -1217,11 +1217,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             gap: 2rem;
             margin: 0 auto;
             width: 80%;
-  
+
             ${mq.tablet}{
               width: 66%;
             }
-  
+
             ${mq.laptop} {
               align-items: stretch;
               flex-direction: row;
@@ -1282,7 +1282,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
                   background-color: ${brand.Shuiro};
                   color: white;
                 }
-  
+
                 ${mq.laptop} {
                   font-size: 1.5rem;
                 }
@@ -1310,7 +1310,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             flex-flow: row wrap;
             gap: 2rem;
             justify-content: center;
-  
+
             ${mq.laptop} {
               gap: 4rem;
             }
@@ -1879,7 +1879,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           justify-content: center;
           padding: 4rem;
           text-align: center;
-  
+
           ${mq.laptop} {
             flex-direction:row;
             text-align: start;

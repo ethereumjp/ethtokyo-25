@@ -27,7 +27,8 @@ export const scheduleData = [
 export const speakersData = [
   {
     name: "Vitalik Buterin",
-    image: "/2025/images/speakers/Vitalik Buterin_Founder_Ethereum.jpg",
+    image:
+      "/ethtokyo-25/2025/images/speakers/Vitalik Buterin_Founder_Ethereum.jpg",
     title: "Founder",
     project: "Ethereum Foundation",
     talkTitle: "",
@@ -35,7 +36,8 @@ export const speakersData = [
   },
   {
     name: "Hsiao-Wei Wang",
-    image: "/2025/images/speakers/Hisao-Wei_Wang_Co-Executive_Director_EF.webp",
+    image:
+      "/ethtokyo-25/2025/images/speakers/Hisao-Wei_Wang_Co-Executive_Director_EF.webp",
     title: "Co-Executive Director",
     project: "Ehereum foundation",
     talkTitle: "",
@@ -43,7 +45,7 @@ export const speakersData = [
   },
   {
     name: "Suji Yan",
-    image: "/2025/images/speakers/sujiyan.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/sujiyan.jpeg",
     title: "Founder",
     project: "Mask Network",
     talkTitle: "",
@@ -51,7 +53,7 @@ export const speakersData = [
   },
   {
     name: "Patrick McCorry",
-    image: "/2025/images/speakers/PatrickMcCorry.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/PatrickMcCorry.jpg",
     title: "Researcher",
     project: "Arbitrum Foundation",
     talkTitle: "",
@@ -59,7 +61,7 @@ export const speakersData = [
   },
   {
     name: "Francesco Andreoli",
-    image: "/2025/images/speakers/FrancescoAndreoli.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/FrancescoAndreoli.jpg",
     title: "Director of Developer Relations",
     project: "Consensys, MetaMask",
     talkTitle: "",
@@ -67,7 +69,7 @@ export const speakersData = [
   },
   {
     name: "Mykola Siusko",
-    image: "/2025/images/speakers/mykolasiusko.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/mykolasiusko.jpg",
     title: "Co-founder",
     project: "Web3Privacy now",
     talkTitle: "",
@@ -75,7 +77,7 @@ export const speakersData = [
   },
   {
     name: "David Casey",
-    image: "/2025/images/speakers/davidcasey.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/davidcasey.jpeg",
     title: "CEO",
     project: "Funding the Commons",
     talkTitle: "",
@@ -83,7 +85,7 @@ export const speakersData = [
   },
   {
     name: "Aki",
-    image: "/2025/images/speakers/Aki.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/Aki.jpeg",
     title: "Co-founder",
     project: "Mycel",
     talkTitle: "",
@@ -91,7 +93,7 @@ export const speakersData = [
   },
   {
     name: "Leona Hioki",
-    image: "/2025/images/speakers/LeonaHioki.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/LeonaHioki.jpg",
     title: "Co-Founder",
     project: "INTMAX",
     talkTitle: "",
@@ -100,7 +102,7 @@ export const speakersData = [
   {
     name: "Aya Miyaguchi",
     image:
-      "/2025/images/speakers/Aya Miyaguchi_President_Ethereum Foundation.jpg",
+      "/ethtokyo-25/2025/images/speakers/Aya Miyaguchi_President_Ethereum Foundation.jpg",
     title: "President",
     project: "Ethereum Foundation",
     talkTitle: "",
@@ -108,7 +110,8 @@ export const speakersData = [
   },
   {
     name: "Tomasz Stańczak",
-    image: "/2025/images/speakers/Tomasz_Stanczak_Co-Executive_Director_EF.svg",
+    image:
+      "/ethtokyo-25/2025/images/speakers/Tomasz_Stanczak_Co-Executive_Director_EF.svg",
     title: "Co-Executive Director, Founder",
     project: "Ethereum Foundation, Nethermind",
     talkTitle: "",
@@ -116,7 +119,7 @@ export const speakersData = [
   },
   {
     name: "Charles Lu",
-    image: "/2025/images/speakers/Charles Lu_Espresso.png",
+    image: "/ethtokyo-25/2025/images/speakers/Charles Lu_Espresso.png",
     title: "",
     project: "Espresso",
     talkTitle: "",
@@ -124,7 +127,7 @@ export const speakersData = [
   },
   {
     name: "Maika Isogawa",
-    image: "/2025/images/speakers/maikaisogawa.png",
+    image: "/ethtokyo-25/2025/images/speakers/maikaisogawa.png",
     title: "",
     project: "Webacy",
     talkTitle: "",
@@ -132,7 +135,7 @@ export const speakersData = [
   },
   {
     name: "Jeff Wentworth",
-    image: "/2025/images/speakers/jeffwentworth.png",
+    image: "/ethtokyo-25/2025/images/speakers/jeffwentworth.png",
     title: "Co-founder",
     project: "Curvegrid",
     talkTitle: "",
@@ -140,7 +143,7 @@ export const speakersData = [
   },
   {
     name: "Alan Scott",
-    image: "/2025/images/speakers/alanscott.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/alanscott.jpg",
     title: "Contributor",
     project: "Railgun",
     talkTitle: "",
@@ -148,7 +151,7 @@ export const speakersData = [
   },
   {
     name: "Gwénolé Martin",
-    image: "/2025/images/speakers/gwenolemartin.png",
+    image: "/ethtokyo-25/2025/images/speakers/gwenolemartin.png",
     title: "Devrel",
     project: "Consensys",
     talkTitle: "",
@@ -156,7 +159,7 @@ export const speakersData = [
   },
   {
     name: "Jack Baldwin",
-    image: "/2025/images/speakers/jackbaldwin.png",
+    image: "/ethtokyo-25/2025/images/speakers/jackbaldwin.png",
     title: "Co-founder",
     project: "Shinsei Galverse",
     talkTitle: "",
@@ -164,7 +167,7 @@ export const speakersData = [
   },
   {
     name: "Sora Suegami",
-    image: "/2025/images/speakers/SoraSuegami.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/SoraSuegami.jpg",
     title: "Co-Founder",
     project: "Machina iO",
     talkTitle: "",
@@ -172,7 +175,7 @@ export const speakersData = [
   },
   {
     name: "Noah Jelich",
-    image: "/2025/images/speakers/noahjelich.png",
+    image: "/ethtokyo-25/2025/images/speakers/noahjelich.png",
     title: "Security Researcher",
     project: "Independent",
     talkTitle: "",
@@ -180,7 +183,7 @@ export const speakersData = [
   },
   {
     name: "Jack Saracco",
-    image: "/2025/images/speakers/jacksaracco.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/jacksaracco.jpg",
     title: "Founder",
     project: "Plasma Free",
     talkTitle: "",
@@ -188,7 +191,7 @@ export const speakersData = [
   },
   {
     name: "irohas.eth",
-    image: "/2025/images/speakers/irohas.eth.png",
+    image: "/ethtokyo-25/2025/images/speakers/irohas.eth.png",
     title: "Director",
     project: "ETHTokyo",
     talkTitle: "",
@@ -196,7 +199,7 @@ export const speakersData = [
   },
   {
     name: "vita",
-    image: "/2025/images/speakers/vita.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/vita.jpg",
     title: "Co-Founder",
     project: "NyxFoundation",
     talkTitle: "",
@@ -204,7 +207,7 @@ export const speakersData = [
   },
   {
     name: "banri",
-    image: "/2025/images/speakers/banri.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/banri.jpg",
     title: "Researcher",
     project: "Nyx Foundation",
     talkTitle: "",
@@ -212,7 +215,7 @@ export const speakersData = [
   },
   {
     name: "ventali",
-    image: "/2025/images/speakers/ventali.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/ventali.jpeg",
     title: "Founder",
     project: "Lita",
     talkTitle: "",
@@ -220,7 +223,7 @@ export const speakersData = [
   },
   {
     name: "Shin'ichiro Matsuo",
-    image: "/2025/images/speakers/Shin'ichiroMatsuo.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/Shin'ichiroMatsuo.jpg",
     title: "Research Professor",
     project: "Georgetown University",
     talkTitle: "",
@@ -228,7 +231,7 @@ export const speakersData = [
   },
   {
     name: "Victoria",
-    image: "/2025/images/speakers/Victoria.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/Victoria.jpeg",
     title: "Operation Leader",
     project: "Zuitzerland",
     talkTitle: "",
@@ -236,7 +239,7 @@ export const speakersData = [
   },
   {
     name: "Vaelyn",
-    image: "/2025/images/speakers/Vaelyn.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/Vaelyn.jpeg",
     title: "",
     project: "Independent",
     talkTitle: "",
@@ -244,7 +247,7 @@ export const speakersData = [
   },
   {
     name: "Yohei Wakita",
-    image: "/2025/images/speakers/YoheiWakita.png",
+    image: "/ethtokyo-25/2025/images/speakers/YoheiWakita.png",
     title: "Co-founder",
     project: "Kudasai Co., Ltd.",
     talkTitle: "",
@@ -252,7 +255,7 @@ export const speakersData = [
   },
   {
     name: "Yuki Kamimoto",
-    image: "/2025/images/speakers/YukiKamimoto.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/YukiKamimoto.jpeg",
     title: "CEO",
     project: "N.Avenue",
     talkTitle: "",
@@ -260,7 +263,7 @@ export const speakersData = [
   },
   {
     name: "Ivo Betke",
-    image: "/2025/images/speakers/Ivo Betke_molecule-xyz.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/Ivo Betke_molecule-xyz.jpg",
     title: "COO",
     project: "Molecule.xyz",
     talkTitle: "",
@@ -268,7 +271,7 @@ export const speakersData = [
   },
   {
     name: "Manbir",
-    image: "/2025/images/speakers/Manbir.png",
+    image: "/ethtokyo-25/2025/images/speakers/Manbir.png",
     title: "",
     project: "",
     talkTitle: "",
@@ -276,7 +279,7 @@ export const speakersData = [
   },
   {
     name: "Deeptanshu Sankhwar",
-    image: "/2025/images/speakers/DeeptanshuSankhwar.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/DeeptanshuSankhwar.jpg",
     title: "Builder",
     project: "MCPChain",
     talkTitle: "",
@@ -284,7 +287,7 @@ export const speakersData = [
   },
   {
     name: "gohan",
-    image: "/2025/images/speakers/gohan.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/gohan.jpg",
     title: "Hacker",
     project: "Nyx Foundation",
     talkTitle: "",
@@ -292,7 +295,7 @@ export const speakersData = [
   },
   {
     name: "Kyle Koshiyama",
-    image: "/2025/images/speakers/KyleKoshiyama.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/KyleKoshiyama.jpeg",
     title: "Developer",
     project: "Fhenix.io (fhe +evm)",
     talkTitle: "",
@@ -300,7 +303,7 @@ export const speakersData = [
   },
   {
     name: "Hiroyuki Tachibana",
-    image: "/2025/images/speakers/HiroyukiTachibana.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/HiroyukiTachibana.jpeg",
     title: "CEO",
     project: "MynaWallet",
     talkTitle: "",
@@ -308,7 +311,7 @@ export const speakersData = [
   },
   {
     name: "Andy Dan",
-    image: "/2025/images/speakers/AndyDan.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/AndyDan.jpeg",
     title: "Representative Partner",
     project: "Fenbushi Japan",
     talkTitle: "",
@@ -316,7 +319,7 @@ export const speakersData = [
   },
   {
     name: "Toshi Kamei",
-    image: "/2025/images/speakers/toshi.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/toshi.jpg",
     title: "Co-founder",
     project: "Fracton Ventures",
     talkTitle: "",
@@ -324,7 +327,7 @@ export const speakersData = [
   },
   {
     name: "Jules Doumeche",
-    image: "/2025/images/speakers/JulesDouméche.png",
+    image: "/ethtokyo-25/2025/images/speakers/JulesDouméche.png",
     title: "Software Engineer",
     project: "Nethermind",
     talkTitle: "",
@@ -332,7 +335,7 @@ export const speakersData = [
   },
   {
     name: "Ingi Kim",
-    image: "/2025/images/speakers/IngiKim.svg",
+    image: "/ethtokyo-25/2025/images/speakers/IngiKim.svg",
     title: "Founder & CEO",
     project: "Narrative and Code States",
     talkTitle: "",
@@ -340,7 +343,7 @@ export const speakersData = [
   },
   {
     name: "Adrian Li",
-    image: "/2025/images/speakers/AdrianLi.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/AdrianLi.jpeg",
     title: "Founder Success Team",
     project: "Ethereum Foundation",
     talkTitle: "",
@@ -348,7 +351,7 @@ export const speakersData = [
   },
   {
     name: "Yudai Suzuki",
-    image: "/2025/images/speakers/YudaiSuzuki.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/YudaiSuzuki.jpg",
     title: "Co-founder",
     project: "Fracton Ventures",
     talkTitle: "",
@@ -356,7 +359,7 @@ export const speakersData = [
   },
   {
     name: "Timothy Shen",
-    image: "/2025/images/speakers/TimothyShen.png",
+    image: "/ethtokyo-25/2025/images/speakers/TimothyShen.png",
     title: "DevRel",
     project: "Story",
     talkTitle: "",
@@ -364,7 +367,7 @@ export const speakersData = [
   },
   {
     name: "Colton Liberacki",
-    image: "/2025/images/speakers/ColtonLiberacki.png",
+    image: "/ethtokyo-25/2025/images/speakers/ColtonLiberacki.png",
     title: "Public Goods Steward",
     project: "ENS DAO",
     talkTitle: "",
@@ -372,7 +375,7 @@ export const speakersData = [
   },
   {
     name: "Yung Algorithm",
-    image: "/2025/images/speakers/YungAlgorithm.png",
+    image: "/ethtokyo-25/2025/images/speakers/YungAlgorithm.png",
     title: "Core Developer",
     project: "ElizaOS",
     talkTitle: "",
@@ -380,7 +383,7 @@ export const speakersData = [
   },
   {
     name: "Dillon Chen",
-    image: "/2025/images/speakers/Dillon.png",
+    image: "/ethtokyo-25/2025/images/speakers/Dillon.png",
     title: "Founder / CEO",
     project: "Common.xyz",
     talkTitle: "",
@@ -388,7 +391,7 @@ export const speakersData = [
   },
   {
     name: "Jirachi",
-    image: "/2025/images/speakers/Jirachi.png",
+    image: "/ethtokyo-25/2025/images/speakers/Jirachi.png",
     title: "Head of Ecosystem",
     project: "Drosera",
     talkTitle: "",
@@ -396,7 +399,7 @@ export const speakersData = [
   },
   {
     name: "Tomáš Vaic",
-    image: "/2025/images/speakers/TomasVaic.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/TomasVaic.jpeg",
     title: "Business Development Manager",
     project: "Trezor",
     talkTitle: "",
@@ -404,7 +407,7 @@ export const speakersData = [
   },
   {
     name: "Paul Clemson",
-    image: "/2025/images/speakers/PaulClemson.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/PaulClemson.jpeg",
     title: "Audit Engineer",
     project: "Quantstamp",
     talkTitle: "",
@@ -412,7 +415,7 @@ export const speakersData = [
   },
   {
     name: "Ash Morgan",
-    image: "/2025/images/speakers/AshMorgan.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/AshMorgan.jpg",
     title: "Head of Stablecoins & RWA",
     project: "Ethereum Foundation",
     talkTitle: "",
@@ -420,7 +423,7 @@ export const speakersData = [
   },
   {
     name: "Seiya",
-    image: "/2025/images/speakers/Seiya.png",
+    image: "/ethtokyo-25/2025/images/speakers/Seiya.png",
     title: "Computer Lover",
     project: "Centrum / MonoBundle / Base Japan",
     talkTitle: "",
@@ -428,7 +431,7 @@ export const speakersData = [
   },
   {
     name: "Josh Cowell",
-    image: "/2025/images/speakers/JoshCowell.png",
+    image: "/ethtokyo-25/2025/images/speakers/JoshCowell.png",
     title: "Founder",
     project: "Moosh Network",
     talkTitle: "",
@@ -436,7 +439,7 @@ export const speakersData = [
   },
   {
     name: "Wei Han Ng",
-    image: "/2025/images/speakers/WeiHanNg.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/WeiHanNg.jpg",
     title: "Member of Stateless Consensus",
     project: "Ethereum Foundation",
     talkTitle: "",
@@ -444,7 +447,7 @@ export const speakersData = [
   },
   {
     name: "Yuta Kurotaki",
-    image: "/2025/images/speakers/YutaKurotaki.png",
+    image: "/ethtokyo-25/2025/images/speakers/YutaKurotaki.png",
     title: "Director and Developer",
     project: "Ethereum Japan",
     talkTitle: "",
@@ -452,7 +455,7 @@ export const speakersData = [
   },
   {
     name: "Daik1",
-    image: "/2025/images/speakers/Daik1.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/Daik1.jpg",
     title: "Lead",
     project: "Solo Stakers Guild Japan",
     talkTitle: "",
@@ -460,7 +463,7 @@ export const speakersData = [
   },
   {
     name: "Mikihiro Ono",
-    image: "/2025/images/speakers/MikihiroOno.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/MikihiroOno.jpg",
     title: "COO",
     project: "Next Finance Tech",
     talkTitle: "",
@@ -468,7 +471,7 @@ export const speakersData = [
   },
   {
     name: "Pol Lanski",
-    image: "/2025/images/speakers/PolLanski.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/PolLanski.jpeg",
     title: "CEO",
     project: "Dappnode",
     talkTitle: "",
@@ -476,7 +479,7 @@ export const speakersData = [
   },
   {
     name: "Isla",
-    image: "/2025/images/speakers/Isla.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/Isla.jpg",
     title: "Founder",
     project: "Zuitzerland",
     talkTitle: "",
@@ -484,7 +487,7 @@ export const speakersData = [
   },
   {
     name: "Tomo Tagami",
-    image: "/2025/images/speakers/TomoTagami.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/TomoTagami.jpg",
     title: "Co-Founder",
     project: "Pheasant Network",
     talkTitle: "",
@@ -492,7 +495,7 @@ export const speakersData = [
   },
   {
     name: "Qi Zhou",
-    image: "/2025/images/speakers/QiZhou.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/QiZhou.jpg",
     title: "Founder",
     project: "QuarkChain",
     talkTitle: "",
@@ -500,7 +503,7 @@ export const speakersData = [
   },
   {
     name: "Hiro Taiyo Hamada",
-    image: "/2025/images/speakers/HiroTaiyoHamada.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/HiroTaiyoHamada.jpg",
     title: "Founder, Research Team Lead",
     project: "DeSci Tokyo, Araya Inc.",
     talkTitle: "",
@@ -508,7 +511,7 @@ export const speakersData = [
   },
   {
     name: "Nisita Tappata",
-    image: "/2025/images/speakers/NisitaTappata.png",
+    image: "/ethtokyo-25/2025/images/speakers/NisitaTappata.png",
     title: "Developer Relations",
     project: "Eliza Labs",
     talkTitle: "",
@@ -516,7 +519,7 @@ export const speakersData = [
   },
   {
     name: "Gordon Kwok",
-    image: "/2025/images/speakers/GordonKwok.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/GordonKwok.jpg",
     title: "Co-Founder",
     project: "BitSeek",
     talkTitle: "",
@@ -524,7 +527,7 @@ export const speakersData = [
   },
   {
     name: "Carlos Ramos",
-    image: "/2025/images/speakers/CarlosRamos.jpg",
+    image: "/ethtokyo-25/2025/images/speakers/CarlosRamos.jpg",
     title: "Co-Founder",
     project: "Stormbit",
     talkTitle: "",
@@ -532,7 +535,7 @@ export const speakersData = [
   },
   {
     name: "Terence Kwok",
-    image: "/2025/images/speakers/TerenceKwok.jpeg",
+    image: "/ethtokyo-25/2025/images/speakers/TerenceKwok.jpeg",
     title: "Founder",
     project: "Humanity Protocol",
     talkTitle: "",
@@ -735,7 +738,7 @@ export const venueSupportData = [
     partnerName: ["Digital Garage"],
     website: ["https://www.garage.co.jp/"],
     logoFile: [
-      "/2025/images/orglogos/eventPartners/Digital_Garage03_Basic_Logo_Blk_Yoko.png",
+      "/ethtokyo-25/2025/images/orglogos/eventPartners/Digital_Garage03_Basic_Logo_Blk_Yoko.png",
     ],
   },
 ];
@@ -926,22 +929,22 @@ export const endorsementsData = [
   {
     name: "Shibuya-ku",
     website: "https://www.city.shibuya.tokyo.jp/",
-    logoFile: "/2025/images/orglogos/endorsements/shibuya-ku.png",
+    logoFile: "/ethtokyo-25/2025/images/orglogos/endorsements/shibuya-ku.png",
   },
   {
     name: "JCBA",
     website: "https://cryptocurrency-association.org/",
-    logoFile: "/2025/images/orglogos/endorsements/JCBA-w.webp",
+    logoFile: "/ethtokyo-25/2025/images/orglogos/endorsements/JCBA-w.webp",
   },
   {
     name: "JBA",
     website: "https://jba-web.jp/",
-    logoFile: "/2025/images/orglogos/endorsements/JBA-logo.png",
+    logoFile: "/ethtokyo-25/2025/images/orglogos/endorsements/JBA-logo.png",
   },
   {
     name: "BCCC",
     website: "https://bccc.global/",
-    logoFile: "/2025/images/orglogos/endorsements/BCCC-logo.webp",
+    logoFile: "/ethtokyo-25/2025/images/orglogos/endorsements/BCCC-logo.webp",
   },
 ];
 
@@ -950,7 +953,7 @@ export const finalistsData = {
   "cypherpunks-anonymous": [
     {
       name: "Anastasia",
-      image: "/2025/images/orglogos/finalists/Anastasia.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/Anastasia.png",
       description:
         "Anastasia is a zero-knowledge system that proves the validity of X.509 certificate chains while revealing only the minimum information required.",
       link: "https://github.com/yamdan/anastasia",
@@ -958,7 +961,7 @@ export const finalistsData = {
     },
     {
       name: "Wrapped Monero",
-      image: "/2025/images/orglogos/finalists/WrappedMonero.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/WrappedMonero.png",
       description:
         "A privacy-focused bridge between Monero (XMR) and Ethereum, featuring encrypted balances using Fhenix's Fully Homomorphic Encryption (FHE).",
       link: "https://wrapped-monero.netlify.app/",
@@ -966,7 +969,7 @@ export const finalistsData = {
     },
     {
       name: "zkPay",
-      image: "/2025/images/orglogos/finalists/zkPay.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/zkPay.png",
       description:
         "Shielded pools and zk-KYC allow KYC-verified users to transfer anonymously while complying with AML/CFT, and enable instant, low-fee payments in Japan.",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfk1laq804s0sibl9kcpc7z5/idea",
@@ -974,7 +977,7 @@ export const finalistsData = {
     },
     {
       name: "ZK-Location Proof",
-      image: "/2025/images/orglogos/finalists/ZK-LocationProof.jpg",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/ZK-LocationProof.jpg",
       description:
         "Securely verify your location in a designated area without exposing your exact location. Prove you are in Tokyo, while hiding that you are in Shibuya.",
       link: "https://github.com/Shunsuke0205/zk-location",
@@ -982,7 +985,7 @@ export const finalistsData = {
     },
     {
       name: "zkPerks",
-      image: "/2025/images/orglogos/finalists/zkPerks.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/zkPerks.png",
       description:
         "A privacy-preserving marketplace where users claim verified rewards using zero-knowledge proofs of email authenticity without revealing personal information.",
       link: "https://zkperks.vercel.app/",
@@ -992,7 +995,7 @@ export const finalistsData = {
   "counterculture-capital": [
     {
       name: "ShinoBee",
-      image: "/2025/images/orglogos/finalists/ShinoBee.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/ShinoBee.png",
       description:
         "Hide the edge, share the returns. Shinobee turns private trading strategies into verifiable DeFi vaults.",
       link: "https://shinobee-frontend.vercel.app/",
@@ -1000,7 +1003,7 @@ export const finalistsData = {
     },
     {
       name: "Cyclone Cash",
-      image: "/2025/images/orglogos/finalists/CycloneCash.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/CycloneCash.png",
       description:
         "Gas optimized tornado cash using Hash chain + Nova folding scheme",
       link: "https://github.com/TornadoOpt",
@@ -1008,7 +1011,7 @@ export const finalistsData = {
     },
     {
       name: "World to Peer",
-      image: "/2025/images/orglogos/finalists/WorldtoPeer.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/WorldtoPeer.png",
       description:
         "Unsecured × Personal × DeFi Lending A new unsecured lending system that addresses financial inclusion and minimum disclosure.",
       link: "https://github.com/GomA16/W2P-ETHTokyo",
@@ -1018,7 +1021,7 @@ export const finalistsData = {
   "actually-intelligent": [
     {
       name: "Toku Kaigan",
-      image: "/2025/images/orglogos/finalists/TokuKaigan.jpg",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/TokuKaigan.jpg",
       description:
         "Empowering accessible mental wellness with a gamified anime style AI psychiatrist that delivers personalized, adaptive care and real-time progress insights in a TEE(Trusted Execution Environment)",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfkcqt5104d5gq91wggvle9k/idea",
@@ -1026,7 +1029,7 @@ export const finalistsData = {
     },
     {
       name: "Prompt Pieper",
-      image: "/2025/images/orglogos/finalists/PromptPiper.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/PromptPiper.png",
       description:
         "Prompt compression for LLMs: cut token usage and costs, unlock larger context windows, and build faster without interruptions",
       link: "https://promptpiper.xyz/",
@@ -1036,7 +1039,7 @@ export const finalistsData = {
   pizzadao: [
     {
       name: "𝕐𝕀𝔼𝕃𝔻𝔼ℝ𝕀𝕋𝔸",
-      image: "/2025/images/orglogos/finalists/𝕐𝕀𝔼𝕃𝔻𝔼ℝ𝕀𝕋𝔸.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/𝕐𝕀𝔼𝕃𝔻𝔼ℝ𝕀𝕋𝔸.png",
       description:
         "A DeFi vault that reallocates $ETH deposits between higher risk $ETH and lower-risk $USDC Lazy Summer Protocol vaults based on live Pentagon Pizza Index signals.",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfk8u72a04lm9gzupebp3i29/idea",
@@ -1044,7 +1047,8 @@ export const finalistsData = {
     },
     {
       name: "Pizza Roulette Game",
-      image: "/2025/images/orglogos/finalists/PizzaRouletteGame.png",
+      image:
+        "/ethtokyo-25/2025/images/orglogos/finalists/PizzaRouletteGame.png",
       description:
         "Pizza Roulette Game is a single-screen Web3 mini-game that runs as a Farcaster MiniApp.",
       link: "https://farcaster.xyz/miniapps/__UcwcJwPaVN/mini-pizza-game",
@@ -1061,14 +1065,15 @@ export const finalistsData = {
   ens: [
     {
       name: "World Context Machine",
-      image: "/2025/images/orglogos/finalists/WorldContextMachine.png",
+      image:
+        "/ethtokyo-25/2025/images/orglogos/finalists/WorldContextMachine.png",
       description: "ethereum == world state machine == world context machine",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfkaaz3d04kppo3lvjyj4hln/idea",
       prize: "Finalist",
     },
     {
       name: "zk-IoT",
-      image: "/2025/images/orglogos/finalists/zkIoT.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/zkIoT.png",
       description:
         "zkIoT is a framework to enable IoT devices to prove compliance with rules or thresholds without revealing raw sensor data.",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfjagbr104fr9gzu8sau6etz/idea",
@@ -1076,7 +1081,7 @@ export const finalistsData = {
     },
     {
       name: "MizuPass",
-      image: "/2025/images/orglogos/finalists/MizuPass.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/MizuPass.png",
       description:
         "Universal privacy first ticketing platform: ENS DID + ZKPassport verification + stealth JPYM payments + offline ZK proofs for seamless cross-border event access.",
       link: "https://www.mizupass.com/",
@@ -1084,7 +1089,7 @@ export const finalistsData = {
     },
     {
       name: "Luft Deck",
-      image: "/2025/images/orglogos/finalists/LuftDeck.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/LuftDeck.png",
       description:
         "A privacy-preserving, proximity-based business card sharing app built with zero-knowledge proofs and P2P networking.",
       link: "https://testflight.apple.com/join/X1bwDXqD",
@@ -1094,7 +1099,7 @@ export const finalistsData = {
   jsc: [
     {
       name: "Mamizu Cash",
-      image: "/2025/images/orglogos/finalists/MamizuCash.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/MamizuCash.png",
       description:
         "Shielded pool for B2B payments: unlinkable transfers via zkSNARKs, KYB/KYC enforced with ZK Email (UNTI/ERC-6268) and Mizuhiki. Audit-ready privacy for enterprises without sacrificing compliance.",
       link: "https://github.com/Mamizu-Cash/Mamizu-Cash",
@@ -1102,7 +1107,7 @@ export const finalistsData = {
     },
     {
       name: "MizuPass",
-      image: "/2025/images/orglogos/finalists/MizuPass.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/MizuPass.png",
       description:
         "Universal privacy first ticketing platform: ENS DID + ZKPassport verification + stealth JPYM payments + offline ZK proofs for seamless cross-border event access.",
       link: "https://www.mizupass.com/",
@@ -1110,7 +1115,7 @@ export const finalistsData = {
     },
     {
       name: "zk-IoT",
-      image: "/2025/images/orglogos/finalists/zkIoT.png",
+      image: "/ethtokyo-25/2025/images/orglogos/finalists/zkIoT.png",
       description:
         "zkIoT is a framework to enable IoT devices to prove compliance with rules or thresholds without revealing raw sensor data.",
       link: "https://taikai.network/ethtokyo/hackathons/hackathon-2025/projects/cmfjagbr104fr9gzu8sau6etz/idea",
@@ -1123,25 +1128,28 @@ export const organizersData = [
   {
     name: "Ethereum Japan",
     website: "https://ethereumjp.org/",
-    logoFile: "/2025/images/orglogos/organizers/EJLogoFace_dark_horizontal.png",
+    logoFile:
+      "/ethtokyo-25/2025/images/orglogos/organizers/EJLogoFace_dark_horizontal.png",
     logoStyle: "standard",
   },
   {
     name: "Centrum",
     website: "https://centrum.studio/",
-    logoFile: "/2025/images/orglogos/organizers/logo_black_transparent.png",
+    logoFile:
+      "/ethtokyo-25/2025/images/orglogos/organizers/logo_black_transparent.png",
     logoStyle: "standard",
   },
   {
     name: "Fracton Ventures",
     website: "https://fracton.ventures/",
-    logoFile: "/2025/images/orglogos/organizers/fracton-rec-white-clear.png",
+    logoFile:
+      "/ethtokyo-25/2025/images/orglogos/organizers/fracton-rec-white-clear.png",
     logoStyle: "standard",
   },
   {
     name: "INTMAX",
     website: "https://intmax.io/",
-    logoFile: "/2025/images/orglogos/organizers/intmax.png",
+    logoFile: "/ethtokyo-25/2025/images/orglogos/organizers/intmax.png",
     logoStyle: "large",
   },
 ];
