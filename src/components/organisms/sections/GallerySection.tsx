@@ -29,27 +29,27 @@ const GallerySection: FC = () => {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    
+
     ${mq.mobileSmall} {
       grid-template-columns: 1fr;
       gap: 1rem;
     }
-    
+
     ${mq.mobile} {
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
-    
+
     ${mq.tablet} {
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
     }
-    
+
     ${mq.laptop} {
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
     }
-    
+
     ${mq.desktop} {
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
@@ -65,15 +65,15 @@ const GallerySection: FC = () => {
     transition: transform 0.3s ease;
     min-height: 120px;
     max-width: 100%;
-    
+
     &:hover {
       transform: scale(1.05);
     }
-    
+
     ${mq.laptop} {
       min-height: 140px;
     }
-    
+
     ${mq.desktop} {
       min-height: 160px;
     }
@@ -97,7 +97,7 @@ const GallerySection: FC = () => {
     padding: 1rem;
     opacity: 0;
     transition: opacity 0.3s ease;
-    
+
     ${previewImageStyle}:hover & {
       opacity: 1;
     }
@@ -170,7 +170,7 @@ const GallerySection: FC = () => {
         <div css={galleryPreviewStyle}>
           <div css={previewImageStyle}>
             <Image
-              src="/2025/images/gallery/event-image-1.jpg"
+              src="/ethtokyo-25/2025/images/gallery/event-image-1.jpg"
               alt="Conference Keynote Sessions"
               css={imageStyle}
               fill
@@ -182,7 +182,7 @@ const GallerySection: FC = () => {
 
           <div css={previewImageStyle}>
             <Image
-              src="/2025/images/gallery/hackathon-1.jpg"
+              src="/ethtokyo-25/2025/images/gallery/hackathon-1.jpg"
               alt="Hackathon Team Collaboration"
               css={imageStyle}
               fill
@@ -194,7 +194,7 @@ const GallerySection: FC = () => {
 
           <div css={previewImageStyle}>
             <Image
-              src="/2025/images/gallery/event-image-2.jpg"
+              src="/ethtokyo-25/2025/images/gallery/event-image-2.jpg"
               alt="Ethereum Community Gathering"
               css={imageStyle}
               fill

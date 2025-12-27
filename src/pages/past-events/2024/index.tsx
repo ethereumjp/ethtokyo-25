@@ -403,7 +403,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 120px;
               }
@@ -450,7 +450,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -475,11 +475,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             justify-content: center;
             margin: 0 auto;
             max-width: 1600px;
-  
+
             ${mq.tablet} {
               gap: 2.5rem;
             }
-  
+
             ${mq.laptop} {
               gap: 3rem;
             }
@@ -534,7 +534,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 144px;
               }
@@ -578,7 +578,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -603,11 +603,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             justify-items: center;
             margin: 0 auto;
             max-width: 1200px;
-  
+
             ${mq.tablet} {
               grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             }
-  
+
             ${mq.laptop} {
               gap: 4rem;
             }
@@ -682,16 +682,16 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             align-items: center;
             display: flex;
             justify-content: center;
-  
-  
+
+
             max-width: ${sizes.mobile[tier]}%;
             padding: ${padding.mobile[tier]};
-  
+
             ${mq.tablet} {
               max-width: ${sizes.tablet[tier]}%;
               padding: ${padding.tablet[tier]};
             }
-  
+
             ${mq.laptop} {
               max-width: ${sizes.laptop[tier]}%;
               padding: ${padding.laptop[tier]};
@@ -717,7 +717,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
         <div
           css={css`
             padding: 1rem 0.5rem;
-  
+
             ${mq.laptop}{
               margin: 0 auto;
               padding: 2rem 1rem;
@@ -747,7 +747,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
         <div
           css={css`
             padding: 1rem 0.5rem;
-  
+
             ${mq.laptop}{
               margin: 0 auto;
               padding: 2rem 1rem;
@@ -786,7 +786,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-weight: 500;
               margin: 0;
               padding: 4rem 0 0;
-  
+
               ${mq.laptop} {
                 font-size: 3rem;
               }
@@ -828,7 +828,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 3rem;
               }
@@ -886,7 +886,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 2.5rem;
               }
@@ -920,7 +920,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               font-size: 2rem;
               font-weight: 400;
               margin: 0;
-  
+
               ${mq.laptop} {
                 font-size: 2.5rem;
               }
@@ -1095,7 +1095,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               css={css`
                 height: auto;
                 max-width: 128px;
-  
+
                 ${mq.laptop} {
                   max-width: 160px;
                 }
@@ -1146,7 +1146,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
               border-radius: 50%;
               height: auto;
               width: 96px;
-  
+
               ${mq.laptop}{
                 width: 120px;
               }
@@ -1193,7 +1193,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           background-color: ${brand.Miyabi};
           padding: 1rem;
           text-align: center;
-  
+
           ${mq.laptop}{
             padding: 1rem 2rem;
           }
@@ -1217,11 +1217,11 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             gap: 2rem;
             margin: 0 auto;
             width: 80%;
-  
+
             ${mq.tablet}{
               width: 66%;
             }
-  
+
             ${mq.laptop} {
               align-items: stretch;
               flex-direction: row;
@@ -1282,7 +1282,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
                   background-color: ${brand.Shuiro};
                   color: white;
                 }
-  
+
                 ${mq.laptop} {
                   font-size: 1.5rem;
                 }
@@ -1310,7 +1310,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
             flex-flow: row wrap;
             gap: 2rem;
             justify-content: center;
-  
+
             ${mq.laptop} {
               gap: 4rem;
             }
@@ -1879,7 +1879,7 @@ const Page: NextPage<PageProps> = ({ params, searchParams }) => {
           justify-content: center;
           padding: 4rem;
           text-align: center;
-  
+
           ${mq.laptop} {
             flex-direction:row;
             text-align: start;

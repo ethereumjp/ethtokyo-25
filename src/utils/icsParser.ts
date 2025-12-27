@@ -317,7 +317,7 @@ function sortEventsByStartTime(events: Event[]): Event[] {
  */
 export async function fetchConferenceSchedule(): Promise<Event[]> {
   try {
-    const response = await fetch("/2025/timetable/conference.ics");
+    const response = await fetch("/ethtokyo-25/2025/timetable/conference.ics");
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

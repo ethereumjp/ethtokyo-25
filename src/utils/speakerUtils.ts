@@ -11,13 +11,13 @@ export interface Speaker {
 // URLからアカウント名を抽出する関数
 export const extractAccountName = (url: string): string => {
   try {
-    // デバッグ用ログ（本番では削除）
-    console.log("extractAccountName input URL:", url);
+    // // デバッグ用ログ（本番では削除）
+    // console.log("extractAccountName input URL:", url);
 
     const urlObj = new URL(url);
     const pathname = urlObj.pathname;
 
-    console.log("extractAccountName pathname:", pathname);
+    // console.log("extractAccountName pathname:", pathname);
 
     // Twitter/Xの場合
     if (url.includes("x.com") || url.includes("twitter.com")) {

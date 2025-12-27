@@ -46,7 +46,7 @@ const VenueSection: FC = () => {
     nearbyStations: ["Shibuya (渋谷) Station", "Omote-Sando (表参道) Station"],
     mapEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5964902582496!2d139.7082801!3d35.662312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5f64c267bd%3A0x34ff084390b090a0!2sUnited%20Nations%20University!5e0!3m2!1sen!2sjp!4v1753695224651!5m2!1sen!2sjp",
-    imageUrl: "/2025/images/venue/UNU.webp",
+    imageUrl: "/ethtokyo-25/2025/images/venue/UNU.webp",
     imageAlt: "United Nations University Conference Venue",
     hasImageDescription: true,
     imageDescription: {
@@ -67,7 +67,7 @@ const VenueSection: FC = () => {
     nearbyStations: ["Shibuya (渋谷) Station", "Shinsen (神泉) Station"],
     mapEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6042338798015!2d139.69406808784115!3d35.662121260370164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca8e24a397f%3A0xd219046cb159ffdb!2zRGlnaXRhbCBHYXJhZ2Ug4oCcUGFuZ2FlYeKAnQ!5e0!3m2!1sen!2sjp!4v1756411401507!5m2!1sen!2sjp",
-    imageUrl: "/2025/images/venue/DG.webp",
+    imageUrl: "/ethtokyo-25/2025/images/venue/DG.webp",
     imageAlt: "Digital Garage Hackathon Venue",
     hasImageDescription: true,
     imageDescription: {

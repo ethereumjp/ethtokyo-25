@@ -228,7 +228,7 @@ const SponsorsSection: FC = () => {
               src={
                 logo.startsWith("/")
                   ? logo
-                  : `/2025/images/orglogos/${props.sponsorType}Sponsors/${logo}`
+                  : `/ethtokyo-25/2025/images/orglogos/${props.sponsorType}Sponsors/${logo}`
               }
               alt={`${props.sponsorName} logo${props.logoFile.length > 1 ? ` ${idx + 1}` : ""}`}
               css={
