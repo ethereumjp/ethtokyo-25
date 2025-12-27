@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
+// for archived github pages
+const prefixPath = "/ethtokyo-25";
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   // output: "export",
   // i18n: { locales: ["en", "ja"], defaultLocale: "en", localeDetection: false },
-  basePath: "/ethtokyo-25",
-  assetPrefix: "https://ethereumjp.github.io/ethtokyo-25/",
+  basePath: prefixPath,
+  assetPrefix: prefixPath,
   images: {
     remotePatterns: [new URL("https://picsum.dev/**")],
   },
